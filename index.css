@@ -2,9 +2,21 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: blanchedalmond;
+    scroll-behavior: smooth;
 }
 
 * {
-    font-family: "Lucida Console", Monaco, monospace; 
+    font-family: "Lucida Console", Monaco, monospace;
 }
 
+.my-colors {
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.my-color {
+  height: 10%;
+  width: 10%;
+
+}
